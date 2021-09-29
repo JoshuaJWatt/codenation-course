@@ -77,9 +77,9 @@ input_ = int(input("what hour is it?: "))
 commuting = 8;
 work = 9;
 
-if input_ == commuting:
+if input_ >= commuting and input_ < work:
 	print("The time is {}, I am commuting".format(input_))
-elif input_ == work:
+elif input_ >= work and input_ <= 5:
 	print("The time is {}, I am at work".format(input_))
 else:
 	print("The time is {}, I am at home".format(input_))
