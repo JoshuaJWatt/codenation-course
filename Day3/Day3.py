@@ -103,3 +103,23 @@ reverse = input_[::-1]
 
 if(input_ == reverse):
 	print("{} is a plaindrome".format(input_))
+
+# A8 - Take the string
+# “jrfndklhgfndjkjlkgperfijfhdknsadcvjhiiohjfkledsopiuh
+# gtyujwsdxcvhgfdjhiopiwquhejkdsoiufghedjwshi”.
+# Find the index of a last vowel in the string.
+
+str = "jrfndklhgfndjkjlkgperfijfhdknsadcvjhiiohjfkledsopiuhgtyujwsdxcvhgfdjhiopiwquhejkdsoiufghedjwshi"
+vowels = ['a','e','i','o','u']
+
+a = str.rindex('a')
+e = str.rindex('e')
+i = str.rindex('i')
+o = str.rindex('o')
+u = str.rindex('u')
+
+outlist = [a, e, i, o, u]
+
+out = max(outlist)
+
+print("the index of the last vowel is: ", out)
