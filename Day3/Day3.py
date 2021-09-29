@@ -123,3 +123,19 @@ outlist = [a, e, i, o, u]
 out = max(outlist)
 
 print("the index of the last vowel is: ", out)
+
+
+# A9 - work out if a year is a leap year
+
+input_ = int(input("What year do you want to check?: "))
+
+if input_ % 4 == 0:
+	if input_ % 100 == 0:
+		if input_ % 400 == 0:
+			print(input_, "is a leap year")
+		else:
+			print(input_, "is not a leap year")
+	else:
+		print(input_, "is a leap year")
+else:
+	print(input_, "is not leap year")
