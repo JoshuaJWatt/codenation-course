@@ -110,7 +110,6 @@ if(input_ == reverse):
 # Find the index of a last vowel in the string.
 
 str = "jrfndklhgfndjkjlkgperfijfhdknsadcvjhiiohjfkledsopiuhgtyujwsdxcvhgfdjhiopiwquhejkdsoiufghedjwshi"
-vowels = ['a','e','i','o','u']
 
 a = str.rindex('a')
 e = str.rindex('e')
