@@ -20,7 +20,7 @@ print("Tomorrow, for breakfast I will eat {}, for dinner I will eat {}, and for 
 #A3
 spaces = ['x', 'o', ' ','x','x',' ','o',' ',' ']
 
-for i in range(1,11):
+for i in range(0,11):
 	if i % 2 == 1: print(" | | ")
 	elif i % 4 == 0: print("-----")
 	else:

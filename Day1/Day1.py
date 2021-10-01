@@ -18,11 +18,11 @@ equ = '='
 
 road = space + bar + space + bar + space
 
-for i in range(1, 11):
-	for i in range(1, 4):
+for i in range(0, 11):
+	for i in range(0, 4):
 		print(space, bar, space, bar, space)
 	print(equ*9)
-for i in range(1, 4):
+for i in range(0, 4):
 		print(space, bar, space, bar, space)
 
 
@@ -36,11 +36,11 @@ equ = '='
 
 road = space + bar + space + bar + space
 
-for i in range(1, 11):
-	for i in range(1, 4):
+for i in range(0, 11):
+	for i in range(0, 4):
 		print(road)
 	print(equ*8)
-for i in range(1, 4):
+for i in range(0, 4):
 		print(road)
 
 
@@ -53,9 +53,9 @@ def roadprinter(length =  10):
 
 	road = space + bar + space + bar + space
 
-	for i in range(1, length):
-		for i in range(1, 4):
+	for i in range(0, length):
+		for i in range(0, 4):
 			print(road)
 		print(equ*8)
-	for i in range(1, 4):
+	for i in range(0, 4):
 			print(road)
